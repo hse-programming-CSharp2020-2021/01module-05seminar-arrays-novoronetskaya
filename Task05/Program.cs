@@ -29,14 +29,14 @@ namespace Task05
         public static void RunTask05()
         {
             int N = int.Parse(Console.ReadLine());
-            int[] array = new int[N];
+            ulong[] array = new ulong[N];
             FillArray(ref array, array.Length);
-            foreach (int element in array)
+            foreach (ulong element in array)
             {
                 Console.Write($"{element} ");
             }
         }
-        public static void FillArray(ref int[] array, int length)
+        public static void FillArray(ref ulong[] array, int length)
         {
             for (int i = length - 1; i >= 0; i--)
             {

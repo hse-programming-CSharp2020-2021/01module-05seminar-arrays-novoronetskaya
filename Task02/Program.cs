@@ -25,15 +25,15 @@ namespace Task02
         public static void RunTask02()
         {
             int N = int.Parse(Console.ReadLine());
-            int[] array = new int[N];
+            ulong[] array = new ulong[N];
             FillArray(ref array);
-            foreach (int element in array)
+            foreach (ulong element in array)
             {
                 Console.Write($"{element} ");
             }
         }
 
-        static void FillArray(ref int[] array)
+        static void FillArray(ref ulong[] array)
         {
             array[0] = 1;
             for (int i = 1; i < array.Length; i++)

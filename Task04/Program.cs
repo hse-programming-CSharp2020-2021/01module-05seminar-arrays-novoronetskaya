@@ -28,19 +28,19 @@ namespace Task04
         {
             int N = int.Parse(Console.ReadLine());
 
-            int A, D;
-            A = int.Parse(Console.ReadLine());
-            D = int.Parse(Console.ReadLine());
-            int[] array = new int[N];
+            ulong A, D;
+            A = ulong.Parse(Console.ReadLine());
+            D = ulong.Parse(Console.ReadLine());
+            ulong[] array = new ulong[N];
             array[0] = A;
             FillArray(ref array, D);
-            foreach (int element in array)
+            foreach (ulong element in array)
             {
                 Console.Write($"{element} ");
             }
         }
 
-        static void FillArray(ref int[] array, int D)
+        static void FillArray(ref ulong[] array, ulong D)
         {
             for (int i = 1; i < array.Length; i++)
             {
