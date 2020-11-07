@@ -17,7 +17,7 @@ namespace Task02
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             RunTask02();
         }
@@ -25,16 +25,21 @@ namespace Task02
         public static void RunTask02()
         {
             int N = int.Parse(Console.ReadLine());
-
-            // TODO: инициализируйте массив и передайте его в соответствующий метод
-
-            
-            // TODO: выведите массив на экран
+            ulong[] array = new ulong[N];
+            FillArray(ref array);
+            foreach (ulong element in array)
+            {
+                Console.Write($"{element} ");
+            }
         }
 
-        static void FillArray()
+        static void FillArray(ref ulong[] array)
         {
-            // TODO: заполните массив соответствующими данными
+            array[0] = 1;
+            for (int i = 1; i < array.Length; i++)
+            {
+                array[i] = array[i - 1] * 2;
+            }
         }
     }
 }

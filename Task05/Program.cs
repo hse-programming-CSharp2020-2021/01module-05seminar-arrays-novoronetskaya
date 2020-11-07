@@ -29,10 +29,26 @@ namespace Task05
         public static void RunTask05()
         {
             int N = int.Parse(Console.ReadLine());
-
-            // TODO: объявите массив и вызовите метод для его заполнения
-            
-            // TODO: выведите массив на экран в требуемом порядке
+            ulong[] array = new ulong[N];
+            FillArray(ref array, array.Length);
+            foreach (ulong element in array)
+            {
+                Console.Write($"{element} ");
+            }
+        }
+        public static void FillArray(ref ulong[] array, int length)
+        {
+            for (int i = length - 1; i >= 0; i--)
+            {
+                if (i >= length - 2)
+                {
+                    array[i] = 1;
+                }
+                else
+                {
+                    array[i] = array[i + 1] + array[i + 2];
+                }
+            }
         }
     }
 }
