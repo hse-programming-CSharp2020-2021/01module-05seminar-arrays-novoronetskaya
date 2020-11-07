@@ -1,0 +1,12 @@
+C:\Users\пк\01module-05seminar-arrays-novoronetskaya\Task04\bin\Debug\netcoreapp3.1\Task04.exe
+C:\Users\пк\01module-05seminar-arrays-novoronetskaya\Task04\bin\Debug\netcoreapp3.1\Task04.deps.json
+C:\Users\пк\01module-05seminar-arrays-novoronetskaya\Task04\bin\Debug\netcoreapp3.1\Task04.runtimeconfig.json
+C:\Users\пк\01module-05seminar-arrays-novoronetskaya\Task04\bin\Debug\netcoreapp3.1\Task04.runtimeconfig.dev.json
+C:\Users\пк\01module-05seminar-arrays-novoronetskaya\Task04\bin\Debug\netcoreapp3.1\Task04.dll
+C:\Users\пк\01module-05seminar-arrays-novoronetskaya\Task04\bin\Debug\netcoreapp3.1\Task04.pdb
+C:\Users\пк\01module-05seminar-arrays-novoronetskaya\Task04\obj\Debug\netcoreapp3.1\Task04.AssemblyInfoInputs.cache
+C:\Users\пк\01module-05seminar-arrays-novoronetskaya\Task04\obj\Debug\netcoreapp3.1\Task04.AssemblyInfo.cs
+C:\Users\пк\01module-05seminar-arrays-novoronetskaya\Task04\obj\Debug\netcoreapp3.1\Task04.csproj.CoreCompileInputs.cache
+C:\Users\пк\01module-05seminar-arrays-novoronetskaya\Task04\obj\Debug\netcoreapp3.1\Task04.dll
+C:\Users\пк\01module-05seminar-arrays-novoronetskaya\Task04\obj\Debug\netcoreapp3.1\Task04.pdb
+C:\Users\пк\01module-05seminar-arrays-novoronetskaya\Task04\obj\Debug\netcoreapp3.1\Task04.genruntimeconfig.cache
