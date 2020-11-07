@@ -39,29 +39,29 @@ namespace Task01
         {
             int numOfItems = int.Parse(Console.ReadLine());
 
-            ulong[] array = new ulong[numOfItems];
-            ulong.TryParse(Console.ReadLine(), out array[0]);
+            long[] array = new long[numOfItems];
+            long.TryParse(Console.ReadLine(), out array[0]);
             for (int i = 1; i < numOfItems; i++)
             {
-                ulong.TryParse(Console.ReadLine(), out array[i]);
+                long.TryParse(Console.ReadLine(), out array[i]);
             }
-            ulong newValue = ulong.Parse(Console.ReadLine());
-            foreach (int element in array)
+            long newValue = long.Parse(Console.ReadLine());
+            foreach (long element in array)
             {
                 Console.Write($"{element} ");
             }
             Console.WriteLine();
             ReplaceMaxElem(ref array, newValue);
-            foreach (int element in array)
+            foreach (long element in array)
             {
                 Console.Write($"{element} ");
             }
         }
 
-        static void ReplaceMaxElem(ref ulong[] arr, ulong val)
+        static void ReplaceMaxElem(ref long[] arr, long val)
         {
-            ulong max = arr[0];
-            foreach (ulong element in arr)
+            long max = arr[0];
+            foreach (long element in arr)
             {
                 if (element > max)
                 {
